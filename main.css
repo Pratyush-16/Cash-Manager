@@ -56,3 +56,33 @@ button{
     font-weight: bolder;
     border: none;
 }
+.tableStyle {
+    width: 80%;
+    text-align: center;
+    border-collapse: collapse;
+    margin: auto;
+}
+.change-table {
+    width: 80%;
+    text-align: center;
+    border-collapse: collapse;
+    margin: auto;
+}
+
+table,td,th,tr {
+    border: 1px solid black;
+}
+
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: black;
+}
+
+table {
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+ border-spacing: 3px;
+    font-size: large;
+}
